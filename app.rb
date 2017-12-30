@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
   get '/' do
 
-      @secret = params[:item]
+      # @secret = params[:item]
 
 
     erb :index
