@@ -30,7 +30,11 @@ GEM
     rack-test (0.8.2)
       rack (>= 1.0, < 3)
     rake (12.3.0)
+<<<<<<< HEAD
     require_all (1.4.0)
+=======
+    require_all (1.5.0)
+>>>>>>> 72c697e1dfe58eaf1e04ca008c9b069082ac2929
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -74,4 +78,8 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
+<<<<<<< HEAD
    1.16.0
+=======
+   1.16.1
+>>>>>>> 72c697e1dfe58eaf1e04ca008c9b069082ac2929
