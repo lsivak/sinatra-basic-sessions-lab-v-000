@@ -2,7 +2,7 @@ require_relative 'config/environment'
 require 'pry'
 class App < Sinatra::Base
   configure do
-    enable :sessions 
+    enable :sessions unless test?
     set :session_secret, "secret"
   end
 
